@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('menu.css');
+@import url('home.css');
+@import url('cardapio.css');
+@import url('depoimentos.css');
+@import url('footer.css');
 
 :root{
     --color-primary-1:#fff9ea;
@@ -42,4 +46,13 @@ li{
 .btn-default:hover{
     background-color: var(--color-primary-3);
     box-shadow: 0px 0px 10px 2px var(--color-primary-6);
+}
+.section-title{
+    color: var(--color-primary-6);
+    font-size: 1.8rem;
+    text-align: center;
+}
+.section-subtitle{
+    font-size: 1rem;
+    text-align: center;
 }
